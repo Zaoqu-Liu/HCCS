@@ -1,0 +1,21 @@
+Package: HCCS
+Title: HCCS
+Version: 1.1.0
+Authors@R: 
+    person(given = "Zaoqu",
+           family = "Liu",
+           role = c("aut", "cre"),
+           email = "liuzaoqu@163.com",
+           comment = c(ORCID = "none"))
+Description: Use gene expression data to get the corresponding TIME phenotype and TIMEscore of each patient
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
+Imports: 
+    GSVA
+Depends: 
+    R (>= 2.10)
